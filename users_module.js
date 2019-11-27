@@ -7,5 +7,5 @@ let schema = new mongoose.Schema({
     surname: String
 });
 
-//export the model to use it in users_routes.js 
-module.exports = mongoose.model('user', schema);
+//export the model to use it in users_route.js 
+module.exports = mongoose.model('users_route', schema);
